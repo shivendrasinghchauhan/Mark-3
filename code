@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+    {
+        int number = 0;
+        int minimum = 0;
+
+        cout << "enter a number = "<<"\n";
+        cin >> minimum;
+
+        for(int i = 1; i <= 4; i++)
+        {
+            cout << "enter a number"<<"\n";
+            cin >> number;
+
+            if(minimum > number)
+            {
+                minimum = number;
+            }
+        }
+            cout << "minimum value is = " << minimum << "\n";
+        }
+            
